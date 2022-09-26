@@ -101,7 +101,7 @@ If you have multiple GPG keys, you need to tell Git which one to use.
 
 ## Telling Git about your SSH key
 
-You can use an existing SSH key to sign commits and tags, or generate a new one specifically for signing. For more information, see "[Generating a new SSH key and adding it to the ssh-agent](/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)."
+You can use an existing SSH key to sign commits and tags, just set the ```user.signingKey``` to your key file location, or generate a new one specifically for signing. For more information, see "[Generating a new SSH key and adding it to the ssh-agent](/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)."
 
 {% data reusables.gpg.ssh-git-version %}
 
